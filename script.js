@@ -1,13 +1,12 @@
 // Demo products
 const PRODUCTS = [
-  { id: 'p1', title: 'Smartphone X200', category:'Electronics', price: 499.99, images:['https://picsum.photos/300/200?random=1'] },
-  { id: 'p2', title: 'Wireless Earbuds', category:'Electronics', price: 59.99, images:['https://picsum.photos/300/200?random=2'] },
-  { id: 'p3', title: 'Summer Dress', category:'Clothing', price: 49.50, images:['https://picsum.photos/300/200?random=3'] },
-  { id: 'p4', title: 'Denim Jacket', category:'Clothing', price: 79.99, images:['https://picsum.photos/300/200?random=4'] },
-  { id: 'p5', title: 'Running Shoes', category:'Footwear', price: 89.00, images:['https://picsum.photos/300/200?random=5'] },
-  { id: 'p6', title: 'Leather Wallet', category:'Accessories', price: 25.00, images:['https://picsum.photos/300/200?random=6'] }
+  { id: 'p1', title: 'Smartphone X200', category:'Electronics', price: 499.99, images:['https://placehold.co/300x200?text=Smartphone'] },
+  { id: 'p2', title: 'Wireless Earbuds', category:'Electronics', price: 59.99, images:['https://placehold.co/300x200?text=Earbuds'] },
+  { id: 'p3', title: 'Summer Dress', category:'Clothing', price: 49.50, images:['https://placehold.co/300x200?text=Summer+Dress'] },
+  { id: 'p4', title: 'Denim Jacket', category:'Clothing', price: 79.99, images:['https://placehold.co/300x200?text=Denim+Jacket'] },
+  { id: 'p5', title: 'Running Shoes', category:'Footwear', price: 89.00, images:['https://placehold.co/300x200?text=Shoes'] },
+  { id: 'p6', title: 'Leather Wallet', category:'Accessories', price: 25.00, images:['https://placehold.co/300x200?text=Wallet'] }
 ];
-
 // Format price
 function formatPrice(v){ return (Math.round(v*100)/100).toFixed(2); }
 function setYears(){ document.querySelectorAll('[id^=year]').forEach(e=>e.textContent = new Date().getFullYear()); }
